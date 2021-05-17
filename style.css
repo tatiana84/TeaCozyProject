@@ -12,7 +12,10 @@ body {
     height: 69px;
     position: fixed;
     border-bottom: 1px solid seashell;
-    /*z-index: 10;*/
+    z-index: 1;
+    background: black;
+    top: 0;
+    left: 0;
 }
 
 #logo {
@@ -76,25 +79,24 @@ a {
 }
 
 .second-content-container {
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
-    margin: 0 auto;
+    margin-top: 20px;
 }
 
-/*.header {
+.header {
     width: 1000px;
+    flex-direction: row;
     margin: 0 auto;
-}*/
+}
 
 .image-container {
     width: 1000px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /*flex-direction: row;*/
+    flex-wrap: wrap;
 }
 
 .image-container img {
@@ -113,26 +115,28 @@ a {
     background-image: url("images/img2.png");
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 80px;
     margin-right: 30px;
     margin-left: 20px;
 }
 
+.location-container
+.addresse-container
 .addresse {
     background-color: black;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     width: 300px;
     height: 300px;
+    font-size: 22px;
     margin-right: 40px;
     margin-top: 15px;
     opacity: 1;
 }
 
-.addresse h3 p {
-    font-size: 15px;
+.addresse p {
+    font-size: 20px;
     font-weight: normal;
-    align-content: center;
 }
 
 .contact {
