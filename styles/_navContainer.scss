@@ -1,0 +1,32 @@
+.nav-container {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid $textColor;
+    z-index: 1;
+    background: $textColor;
+    top: 0;
+    left: 0;
+
+
+    #logo {
+        position: fixed;
+        height: 50px;
+        padding: 10px;
+        float: left;
+    }
+
+    .links {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+            color: $textColor;
+            text-decoration: underline;
+            margin-right: 20px;
+        }
+    }
+}
